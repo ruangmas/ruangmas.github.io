@@ -1,0 +1,51 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Thanicha Ruangmas",
+    "section": "",
+    "text": "I am the Faculty Leader of the Sustainability Analytics research stream at the University of Maryland, College Park First-Year Innovation & Research Experience (FIRE) Program. I am dedicated to training undergraduate students in empirical microeconomics and data science. Under my mentorship, students conduct end-to-end research; from data query, exploration, wrangling, modeling, and presentation.\nI received my Ph.D. in Agricultural and Applied Economics from the University of Wisconsin-Madison in 2018. As a researcher, I am interested in using economics and atmospheric science models to assess the consequences of air pollution regulations.\nEmail: ruangmas [at] umd.edu"
+  },
+  {
+    "objectID": "index.html#updates",
+    "href": "index.html#updates",
+    "title": "Thanicha Ruangmas",
+    "section": "Updates",
+    "text": "Updates\n\n\n\n\n\nI will be showcasing my empirical teaching curriculum at the AEA-CEE Poster Session in New Orleans Louisiana. You can find me on January 7, 2023 from 2:30 pm to 4:30 pm at the Hilton Riverside, Parish.\n\n\n\n\n\nI am honored to be one of 18 faculty recipients of the Phillip Merrill Presidential Scholars Program Faculty Mentor Award for the 2022-2023 academic year."
+  },
+  {
+    "objectID": "research.html",
+    "href": "research.html",
+    "title": "Research",
+    "section": "",
+    "text": "Learn about the latest students’ research projects supervised me on this website."
+  },
+  {
+    "objectID": "research.html#grant-funded-projects",
+    "href": "research.html#grant-funded-projects",
+    "title": "Research",
+    "section": "Grant-Funded Projects",
+    "text": "Grant-Funded Projects\n\n\n\n\n\nUsing Online Data to Identify Farms Selling Poultry and Eggs in Delaware, Maryland, and Virginia\nAPHIS-FIRE Summer Fellow Project (2020)\nThis project is a collaboration between USDA-APHIS and UMD FIRE. The research group, lead by Dr. Thanicha Ruangmas and Dr. Lars Olson, identified farms selling poultry and eggs in Delaware, Maryland, and Virginia using publicly available online data. The group also developed new methods to detect registered and unregistered farms selling poultry and egg products and analyzed regional search trends.\nMedia coverage: The College Post, The Poultry Site, UMD Momentum Magazine\n\n\n\n\n\nOptimal Control of Invasive Species\nAPHIS-FIRE Summer Fellow Project (2021)\nThis project is a collaboration between USDA-APHIS and UMD FIRE. The research project, led by Dr. Thanicha Ruangmas and Dr. Lars Olson, aims to examine the optimal control of Citrus Canker and Citrus Greening infestation at each citrus-growing pixel from the United States Department of Agriculture National Agricultural Statistics Service (USDA-NASS) Cropland Data Layer (2012) in Florida that minimizes the damage on citrus production and the costs of control. An intertemporal and spatial theoretical model is developed to represent each species’ control, growth, and dispersion at each orchard. By incorporating species-specific parameters and optimization, we hope to improve our understanding of how the optimal level of infestation for each species at each citrus-growing pixel depends on the economic and biological factors associated with citrus production in the presence of an invasive pest."
+  },
+  {
+    "objectID": "research.html#publication",
+    "href": "research.html#publication",
+    "title": "Research",
+    "section": "Publication",
+    "text": "Publication\n\n\n\n\n\nWho Wins from Emissions Trading? Evidence from California (link)\nPaper co-authored with Corbett Grainger\nPublished in Journal of Environmental and Resource Economics (2018)\nWe examined the distributional effects of southern California’s air pollution cap-and-trade program and found that higher-income groups and African Americans benefit from cap-and-trade."
+  },
+  {
+    "objectID": "research.html#ongoing-projects",
+    "href": "research.html#ongoing-projects",
+    "title": "Research",
+    "section": "Ongoing Projects",
+    "text": "Ongoing Projects\n\n\n\n\n\nThe Consequences of Natural Gas Subsidy Reform: The Case of Air Pollution in Thailand (draft)\nThis paper investigates the effects of a compressed natural gas subsidy and its availability and relation to air pollution in Thailand. As compressed natural gas is adopted in many countries due to a governmental requirement, the voluntary adoption of compressed natural gas has not been comprehensively studied. To my knowledge, this is the first paper that analyzes the mechanisms and air pollution consequences of a voluntary alternative fuel substitution policy. I find that increasing the availability of compressed natural gas, via the setup of natural gas fueling stations, is the largest driver of compressed natural gas adoption and causes SO2 levels to decrease.\n\n\n\n\n\nProperty Rights and Coordinated Use of a Large Scale Natural Resource: Evidence from Fisheries in Washington State\nOngoing project co-authored with Dominic Parker\nWe examine the effect of different property rights regulations between commercial and tribal fishermen in Washington state. Commercial fishermen are constrained by the number of boats each season. On the other hand, tribal fishermen are constrained by where to fish. Because commercial fishermen can use larger boats to intercept salmon before it migrates to rivers, tribal fishermen are worse off by this policy."
+  },
+  {
+    "objectID": "teaching.html",
+    "href": "teaching.html",
+    "title": "Teaching",
+    "section": "",
+    "text": "The University of Maryland launched The First-Year Innovation & Research Experience (FIRE) program in 2014 to provide first-year undergraduate students an authentic research experience, faculty-based mentorship, and opportunities for professional development. Sustainability Analytics is a research group within FIRE that conducts research in empirical environmental economics. To my knowledge, FIRE Sustainability Analytics is the first-ever course-based undergraduate research experience group in economics.\nA cohort of about 30 students joins the research group for two semesters each year. In the first semester, students are exposed to the research process in empirical economics and basic data science using the programming language R. The poster below outlines the empirical training curriculum.\nIn the second semester, students conduct research using cutting-edge methods and newly available data. Learn about our current research projects here."
+  }
+]
