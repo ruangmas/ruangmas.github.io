@@ -607,10 +607,12 @@ In-cloud (GT1=1L/L; LT 1=1/s), Below cloud (1/s)</td>
 <span id="cb4-26"><a href="#cb4-26" aria-hidden="true" tabindex="-1"></a>p2<span class="ot">&lt;-</span>p <span class="sc">%&gt;%</span></span>
 <span id="cb4-27"><a href="#cb4-27" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(part<span class="sc">&gt;</span><span class="dv">0</span>)</span>
 <span id="cb4-28"><a href="#cb4-28" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-29"><a href="#cb4-29" aria-hidden="true" tabindex="-1"></a><span class="fu">tm_shape</span>(p2)<span class="sc">+</span><span class="fu">tm_fill</span>(<span class="st">"part"</span>, <span class="at">breaks=</span><span class="fu">c</span>(<span class="dv">0</span>,<span class="fl">0.000001</span>,<span class="fl">0.00001</span>, <span class="fl">0.0001</span>,<span class="dv">1</span>))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output-display">
-<p><img src="hysplit_files/figure-html/unnamed-chunk-3-1.png" class="img-fluid" width="672"></p>
+<span id="cb4-29"><a href="#cb4-29" aria-hidden="true" tabindex="-1"></a><span class="co">#tm_shape(p2)+tm_fill("part", breaks=c(0,0.000001,0.00001, 0.0001,1))</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="plot1.png" class="img-fluid figure-img" width="500"></p>
+</figure>
 </div>
 <p>In the next step, we will combine HYPSLIT concentration data with block group data from the state of Delaware. First, we have to calculate the area of each HYSPLIT grid polygon, block group, and the area that each HYSPLIT grid and block group intersects.</p>
 <div class="cell">
@@ -631,7 +633,7 @@ In-cloud (GT1=1L/L; LT 1=1/s), Below cloud (1/s)</td>
 <span id="cb5-15"><a href="#cb5-15" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb5-16"><a href="#cb5-16" aria-hidden="true" tabindex="-1"></a>intdf<span class="ot">&lt;-</span>int<span class="sc">@</span>data</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
-<p>In the next step, we calculate the number of person <span class="math inline">\(\times\)</span> particles within each area <span class="math inline">\(i\)</span> that a hysplit grid <span class="math inline">\(h\)</span> and a block group <span class="math inline">\(b\)</span> intersects each other. The number of person <span class="math inline">\(\times\)</span> particles exposed can be calculated using the formula below</p>
+<p>In the next step, we calculate the number of person <span class="math inline">\(\times\)</span> particles within each area <span class="math inline">\(i\)</span> that a HYSPLIT grid <span class="math inline">\(h\)</span> and a block group <span class="math inline">\(b\)</span> intersects each other. The number of person <span class="math inline">\(\times\)</span> particles exposed can be calculated using the formula below</p>
 <p><span class="math inline">\(PersonParticles_{i}=\dfrac{Area_i}{Area_h} \times Particles_h \times \dfrac{Area_i}{Area_b} \times Total_b\)</span></p>
 <p>where <span class="math inline">\(\dfrac{Area_i}{Area_h} \times Particles_h\)</span> represents the number of particles in HYSPLIT grid <span class="math inline">\(h\)</span> falls into the intersecting area <span class="math inline">\(i\)</span>. <span class="math inline">\(\dfrac{Area_i}{Area_b} \times Total_b\)</span> represents the number of people in block grid <span class="math inline">\(b\)</span> that is exposed to the particles in area <span class="math inline">\(i\)</span>.</p>
 <p>The value of <span class="math inline">\(PersonParticles\)</span> in each intersecting area is shown below.</p>
@@ -654,10 +656,12 @@ In-cloud (GT1=1L/L; LT 1=1/s), Below cloud (1/s)</td>
 <span id="cb6-16"><a href="#cb6-16" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb6-17"><a href="#cb6-17" aria-hidden="true" tabindex="-1"></a>int2<span class="ot">&lt;-</span><span class="fu">merge</span>(int, intblck_map, <span class="at">by=</span><span class="fu">c</span>(<span class="st">"GEOID"</span>, <span class="st">"part"</span>))</span>
 <span id="cb6-18"><a href="#cb6-18" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb6-19"><a href="#cb6-19" aria-hidden="true" tabindex="-1"></a><span class="fu">tm_shape</span>(int2)<span class="sc">+</span><span class="fu">tm_fill</span>(<span class="st">"pp"</span>, <span class="at">breaks=</span><span class="fu">c</span>(<span class="dv">0</span>,<span class="dv">1</span>,<span class="dv">2</span>,<span class="dv">3</span>))<span class="sc">+</span><span class="fu">tm_layout</span>(<span class="at">legend.outside =</span> <span class="cn">TRUE</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output-display">
-<p><img src="hysplit_files/figure-html/unnamed-chunk-5-1.png" class="img-fluid" width="672"></p>
+<span id="cb6-19"><a href="#cb6-19" aria-hidden="true" tabindex="-1"></a><span class="co">#tm_shape(int2)+tm_fill("pp", breaks=c(0,1,2,3))+tm_layout(legend.outside = TRUE)</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="plot2.png" class="img-fluid figure-img" width="500"></p>
+</figure>
 </div>
 <p>Afterwards, we can find the total number of people exposed to the pollutant by finding the sum of all <span class="math inline">\(PersonParticles_i\)</span> in all areas <span class="math inline">\(i\)</span>.</p>
 <div class="cell">
