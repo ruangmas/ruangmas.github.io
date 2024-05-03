@@ -1,0 +1,27 @@
+---
+title: "Year 2023"
+---
+
+## Work in Progress
+
+Students who have just started working on their research project showcased their data wrangling skills and preliminary results in GitHub-Flavored Markdown pages in the links below.
+
+-   [North Carolina's Light Rail Opening & Air Pollution](https://github.com/umdfiresa2023/fire-summit-greenlight)
+
+-   [Plastic Bans & Water Quality in the Chesapeake Bay](https://github.com/umdfiresa2023/fire-summit-microplastic)
+
+-   [Corporate ESG Reports & GHG Emissions](https://github.com/umdfiresa2023/fire-summit-whistle-blowers)
+
+-   [EV Battery Recycling & Air Pollution](https://github.com/umdfiresa2023/fire-summit-zero-e-mission)
+
+-   [Cobalt Mining & Conflicts in the DRC](https://github.com/umdfiresa2023/fire-summit-mining)
+
+-   [Air Pollution & Crime in Baltimore City](https://github.com/umdfiresa2023/fire-summit-crime-patrol)
+
+## Undergraduate Research Day
+
+Peer Research Mentors who have been working on their research projects for at least two semesters presented their posters at [UMD's Undergraduate Research Day](https://mcur.umd.edu/undergraduate-research-day).
+
+![](images/2023_lr.png){fig-align="left" width="1600"}
+
+![](images/2023_noise.png){fig-align="left" width="1600"}

@@ -1,0 +1,33 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  sidebar:
+    background: black
+    foreground: gray-100
+    search: true
+    style: docked
+    contents:
+      - section: About Us
+        contents: 
+          - href: index.qmd
+          - href: recognition.qmd
+          
+      - section: Our Team
+        contents: 
+          - href: leaders.qmd
+      
+      - section: Our Work
+        contents:  
+          - href: year_2023.qmd
+          - href: year_2022.qmd
+          
+      
+format:
+  html:
+    grid:
+      sidebar-width: 300px
+    theme: darkly.css
+    #css: styles.css
+    toc: true

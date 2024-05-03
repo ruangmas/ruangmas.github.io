@@ -1,0 +1,23 @@
+---
+title: "Year 2022"
+format: html
+editor: visual
+---
+
+## Undergraduate Research Day
+
+[UMD's Undergraduate Research Day](https://mcur.umd.edu/undergraduate-research-day) showcase provides undergraduate students the opportunity to share their work to the campus community. The following posters encapsulate the research presented by FIRE Peer Research Mentors at this event.
+
+![](images/IMG_00001%203.jpeg){width="1600"}
+
+![](images/IMG_00001.jpeg){width="1600"}
+
+![](images/IMG_00001%204.jpeg){width="1600"}
+
+## Posters on the Hill
+
+Every year the Council on Undergraduate Research (CUR) hosts the event [Posters on the Hill](https://www.cur.org/what/events/students/poh/) to give undergraduates the opportunity to present their research on Capitol Hill so Congress members can interact with the students and appreciate the importance of undergraduate research. This year, research from the stream has the opportunity to represent the state of Maryland during this event.
+
+![](images/IMG_00001%202.jpeg){width="1600"}
+
+## 
