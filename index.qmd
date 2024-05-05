@@ -5,7 +5,7 @@ html:
 toc: false
 ---
 
-![](images/thanicha-wide.jpg){fig-align="center"}
+![](images/thanicha-wide.jpg){fig-align="center" width="300"}
 
 I am the Faculty Leader of the [FIRE Sustainability Analytics](https://www.fire.umd.edu/sa) research group at the University of Maryland. I am dedicated to training undergraduate students in empirical microeconomics and data science. Under my mentorship, students conduct end-to-end research; from data query, exploration, wrangling, modeling, and presentation.
 
@@ -13,4 +13,4 @@ I received my Ph.D. in [Agricultural and Applied Economics from the University 
 
 [Curriculum Vitae](https://github.com/ruangmas/ruangmas.github.io/blob/main/cv/cv.pdf)
 
-Email: ruangmas \[at\] umd.edu
+**Email: ruangmas \[at\] umd.edu**

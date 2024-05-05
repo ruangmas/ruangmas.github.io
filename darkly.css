@@ -18,7 +18,7 @@ $gray-800: #303030 !default;
 $gray-900: #222 !default;
 $black:    #000 !default;
 
-$blue:    #375a7f !default;
+$blue:    #0023F5 !default;
 $indigo:  #6610f2 !default;
 $purple:  #6f42c1 !default;
 $pink:    #e83e8c !default;
@@ -39,7 +39,7 @@ $body-color:                $gray-800 !default;
 
 $primary:       $red!default;
 $secondary:     body-mix(85%) !default;
-$success:       $gray-900 !default;
+$success:       $blue !default;
 $info:          $cyan !default;
 $warning:       $yellow !default;
 $danger:        $red !default;

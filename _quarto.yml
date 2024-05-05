@@ -3,16 +3,26 @@ project:
   output-dir: docs
 
 website:
-  navbar:
+  sidebar:
     background: black
     foreground: gray-100
+    style: "docked"
     search: true
-    left:
-      - text: "Home"
-        href: index.qmd
-      - mycv.qmd
+    contents:
+      - section: "About Me"
+        contents:
+          - text: "Home"
+            href: index.qmd
+          - mycv.qmd
       #- teaching.qmd
-      #- research.qmd 
+      #- research.qmd
+      - text: "---"
+      - section: "Resources"
+        contents:
+          - text: "HYSPLIT with R"
+            href: hysplit.qmd
+          - text: "Workflow with R & GitHub"
+            href: rr.qmd
    
 format:
   html:

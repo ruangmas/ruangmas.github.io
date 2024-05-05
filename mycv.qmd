@@ -7,4 +7,3 @@ editor: visual
 <p align="center">
 <embed src="cv/cv.pdf" width="800px" height="2100px" /></p>
 ```
-
