@@ -22,7 +22,7 @@ website:
           - text: "HYSPLIT with R"
             href: hysplit.qmd
           - text: "Workflow with R & GitHub"
-            href: rr.qmd
+            href: r-and-github.qmd
           - text: "Paper Replication ASNs"
             href: paper-replication.qmd
    

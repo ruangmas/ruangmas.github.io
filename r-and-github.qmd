@@ -11,21 +11,18 @@ editor: visual
 <p align="left">
 <embed src="tutorials/posit-intro-and-packages.pdf" width="800px" height="450px" /></p>
 ```
-
 # 2. How to link Posit Cloud to GitHub & clone an assignment
 
 ```{=html}
 <p align="left">
 <embed src="tutorials/link-and-clone.pdf" width="800px" height="450px" /></p>
 ```
-
 # 3. How to update changes in Posit Cloud to the same GitHub repository
 
 ```{=html}
 <p align="left">
 <embed src="tutorials/commit-and-push.pdf" width="800px" height="450px" /></p>
 ```
-
 # 4. How to edit R scripts from a GitHub repository in your local computer with Windows OS
 
 ```{=html}
