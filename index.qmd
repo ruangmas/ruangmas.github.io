@@ -11,6 +11,6 @@ I am the Faculty Leader of the [FIRE Sustainability Analytics](https://www.fire.
 
 I received my Ph.D. in [Agricultural and Applied Economics from the University of Wisconsin-Madison](https://aae.wisc.edu/) in 2018. As a researcher, I am interested in using economics and atmospheric science models to assess the consequences of air pollution regulations.
 
-[Curriculum Vitae](https://github.com/ruangmas/ruangmas.github.io/blob/main/cv/cv.pdf)
+[Curriculum Vitae](https://ruangmas.github.io/mycv.html)
 
 **Email: ruangmas \[at\] umd.edu**
