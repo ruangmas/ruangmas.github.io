@@ -1,28 +1,34 @@
 ---
 title: "Reproducible Research Workflow with Posit Cloud and GitHub"
+author: Thanicha Ruangmas
+date: 5/5/2024
 editor: visual
 ---
 
-# Tutorials
+# 1. Introduction to Posit Cloud and R Packages
 
--   How to link Posit Cloud to GitHub & clone an assignment
+```{=html}
+<p align="left">
+<embed src="tutorials/posit-intro-and-packages.pdf" width="800px" height="450px" /></p>
+```
 
--   How to update changes in Posit Cloud to the same GitHub repository
+# 2. How to link Posit Cloud to GitHub & clone an assignment
 
--   How to work with RStudio & GitHub in your local computer
+```{=html}
+<p align="left">
+<embed src="tutorials/link-and-clone.pdf" width="800px" height="450px" /></p>
+```
 
--   How to showcase your work in a GitHub-Flavored Markdown page
+# 3. How to update changes in Posit Cloud to the same GitHub repository
 
-# Paper Replication Assignments
+```{=html}
+<p align="left">
+<embed src="tutorials/commit-and-push.pdf" width="800px" height="450px" /></p>
+```
 
-These are the assignments help students learn programming in R, while guiding them to replicate figures and tables in ["Defensive Investments and the Demand for Air Quality: Evidence from the NOx Budget Program" by Deschenes et al. (2017)](https://www.aeaweb.org/articles?id=10.1257/aer.20131002) simultaneously.
+# 4. How to edit R scripts from a GitHub repository in your local computer with Windows OS
 
-1.  Understanding the Data
-
-2.  Make Figure 1
-
-3.  Make Table 1
-
-4.  Make Figure A1
-
-5.  Make Table 2
+```{=html}
+<p align="left">
+<embed src="tutorials/local-rstudio-and-github.pdf" width="800px" height="450px" /></p>
+```

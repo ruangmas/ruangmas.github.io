@@ -2,10 +2,11 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.3.353">
+<meta name="generator" content="quarto-1.3.450">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Thanicha Ruangmas">
 <meta name="dcterms.date" content="2022-12-28">
 
 <title>How to Run HYSPLIT Simulations and Calculate Affected Population with R</title>
@@ -90,7 +91,8 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     "search-more-matches-text": "more matches in this document",
     "search-clear-button-title": "Clear",
     "search-detached-cancel-button-title": "Cancel",
-    "search-submit-button-title": "Submit"
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
   }
 }</script>
 
@@ -111,7 +113,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
       <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./hysplit.html">Resources</a></li><li class="breadcrumb-item"><a href="./hysplit.html">HYSPLIT with R</a></li></ol></nav>
       <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
       </a>
-      <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
+      <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
         <i class="bi bi-search"></i>
       </button>
     </div>
@@ -173,6 +175,12 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
  <span class="menu-text">Workflow with R &amp; GitHub</span></a>
   </div>
 </li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./paper-replication.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Paper Replication ASNs</span></a>
+  </div>
+</li>
       </ul>
   </li>
     </ul>
@@ -209,6 +217,12 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 <div class="quarto-title-meta">
 
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Thanicha Ruangmas </p>
+          </div>
+  </div>
     
     <div>
     <div class="quarto-title-meta-heading">Published</div>
@@ -223,7 +237,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 </header>
 
-<p>A HYSPLIT Concentration-Dispersion model simulates the transport of "particles" as the wind blows them. HYSPLIT simulations can be run <a href="https://www.ready.noaa.gov/index.php">online</a> or with a free program that can be downloaded to a local computer. As researchers may want to model the dispersion of pollutants released over time and calculate the number of people affected, this tutorial describes how to use R to batch run HYSPLIT in a Windows-based computer and merge it with census data.</p>
+<p>A HYSPLIT Concentration-Dispersion model simulates the transport of “particles” as the wind blows them. HYSPLIT simulations can be run <a href="https://www.ready.noaa.gov/index.php">online</a> or with a free program that can be downloaded to a local computer. As researchers may want to model the dispersion of pollutants released over time and calculate the number of people affected, this tutorial describes how to use R to batch run HYSPLIT in a Windows-based computer and merge it with census data.</p>
 <p>I want to thank Dr.&nbsp;Mark Cohen from NOAA ARL, who helped configure the parameters in HYPSLIT and Jason Tan who figured out how to HYSPLIT in R.</p>
 <section id="the-program" class="level1">
 <h1>1. The Program</h1>
@@ -234,12 +248,12 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <h1><strong>2. Gridded Meteorological Data</strong></h1>
 <p>HYSPLIT uses existing meteorological data, including wind speed, direction, and other 3D meteorological data, to model particle dispersion. To run HYSPLIT, users must download Gridded Meteorological Data from specific areas and periods that the user would like to simulate their dispersion model. A list of Gridded Meteorological Data can be found <a href="https://www.ready.noaa.gov/archives.php">here</a>.</p>
 <p>For the United States, I was recommended to use meteorological data from <a href="ftp://arlftp.arlhq.noaa.gov/pub/archives/wrf27km">WRF ARW</a> which provides meteorological data for every 27 kilometers, from 1980 to the present date.</p>
-<p>Let's assume that I would like to simulate the dispersion of 100 NO2 particles released on May 1, 2004, for 24 hours. In this case, I would need WRF ARW meteorological data, wrfout_d01_20040501.ARL, from this <a href="ftp://arlftp.arlhq.noaa.gov/pub/archives/wrf27km/avg/2004/">site.</a></p>
+<p>Let’s assume that I would like to simulate the dispersion of 100 NO2 particles released on May 1, 2004, for 24 hours. In this case, I would need WRF ARW meteorological data, wrfout_d01_20040501.ARL, from this <a href="ftp://arlftp.arlhq.noaa.gov/pub/archives/wrf27km/avg/2004/">site.</a></p>
 <p>I saved the downloaded meteorological data in a new folder <strong>C:/hysplit/met/</strong>, which is used to store all meteorological data from HYSPLIT.</p>
 </section>
 <section id="the-control-file" class="level1">
 <h1>3. The CONTROL File</h1>
-<p>A CONTROL file is a text file (with no extension) that specifies each simulation's details. You can download a sample CONTROL file <a href="https://github.com/ruangmast/ruangmast.github.io/blob/main/CONTROL_NO2">here</a>.</p>
+<p>A CONTROL file is a text file (with no extension) that specifies each simulation’s details. You can download a sample CONTROL file <a href="https://github.com/ruangmast/ruangmast.github.io/blob/main/CONTROL_NO2">here</a>.</p>
 <p>The table below shows a clarification from Dr.&nbsp;Mark Cohen, which explains each line in the CONTROL file. Once you have created a control file, you need to save it as CONTROL in the <strong>C:/hysplit/working/</strong> folder. I also created a new folder, <strong>C:/hysplit/working/output/</strong>, to store all outputs.</p>
 <table class="table">
 <thead>
@@ -393,12 +407,12 @@ If there is more than one starting location or height, each must be on a separat
 </tr>
 <tr class="even">
 <td>0.0 46.0 0.1 1.6 0.01</td>
-<td>Deposition velocity (m/s), Pollutant molecular weight (g/mol), Surface reactivity ratio, Diffusivity Ratio, Effective Henry's Constant</td>
+<td>Deposition velocity (m/s), Pollutant molecular weight (g/mol), Surface reactivity ratio, Diffusivity Ratio, Effective Henry’s Constant</td>
 <td>Refer to information from <a href="https://www.ready.noaa.gov/hysplitusersguide/S314.htm">this site</a></td>
 </tr>
 <tr class="odd">
 <td>0.1 0.0 0.0</td>
-<td>Wet removal: Actual Henry's Constant,<br>
+<td>Wet removal: Actual Henry’s Constant,<br>
 In-cloud (GT1=1L/L; LT 1=1/s), Below cloud (1/s)</td>
 <td>Refer to information from <a href="https://www.ready.noaa.gov/hysplitusersguide/S314.htm">this site</a></td>
 </tr>
@@ -424,7 +438,7 @@ In-cloud (GT1=1L/L; LT 1=1/s), Below cloud (1/s)</td>
 </section>
 <section id="using-loops-to-batch-run-hysplit" class="level1">
 <h1><strong>5. Using Loops to Batch Run HYSPLIT</strong></h1>
-<p>The point of running HYPSLIT in R is because you would like to run HYSPLIT simulations for multiple locations, dates, and times. First, the user must download meteorological files for all the dates planned. After that, you can batch run all the simulations. Below is an example R code that I use to run HYSPLIT simulations every day in May, July, and August of 2004. Note that if you are running simulations for multiple locations on the same day, you must change the ASCII file's name to be unique for each location.</p>
+<p>The point of running HYPSLIT in R is because you would like to run HYSPLIT simulations for multiple locations, dates, and times. First, the user must download meteorological files for all the dates planned. After that, you can batch run all the simulations. Below is an example R code that I use to run HYSPLIT simulations every day in May, July, and August of 2004. Note that if you are running simulations for multiple locations on the same day, you must change the ASCII file’s name to be unique for each location.</p>
 <div class="sourceCode" id="cb2"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(<span class="st">"tidyverse"</span>)</span>
 <span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(<span class="st">"readr"</span>)</span>
 <span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a></span>
@@ -618,12 +632,12 @@ In-cloud (GT1=1L/L; LT 1=1/s), Below cloud (1/s)</td>
 </section>
 <section id="additional-resources" class="level1">
 <h1><strong>Additional Resources</strong></h1>
-<p><a href="https://www.ready.noaa.gov/hysplitusersguide/">Online HYPSLIT User's Guide</a></p>
-<p><a href="https://www.ready.noaa.gov/hysplitusersguide/S310.htm">CONTROL file description in the HYPSLIT User's Guide</a></p>
+<p><a href="https://www.ready.noaa.gov/hysplitusersguide/">Online HYPSLIT User’s Guide</a></p>
+<p><a href="https://www.ready.noaa.gov/hysplitusersguide/S310.htm">CONTROL file description in the HYPSLIT User’s Guide</a></p>
 </section>
 <section id="references" class="level1">
 <h1><strong>References</strong></h1>
-<p>Stein, A., Draxler, R., Rolph, G., Stunder, B., Cohen, M., Ngan, F. (2015). NOAA's HYSPLIT Atmospheric Transport and Dispersion Modeling System. Bulletin of the American Meteorological Society, 96 (12), 2059-2077. DOI: 10.1175/BAMS-D-14-00110.1</p>
+<p>Stein, A., Draxler, R., Rolph, G., Stunder, B., Cohen, M., Ngan, F. (2015). NOAA’s HYSPLIT Atmospheric Transport and Dispersion Modeling System. Bulletin of the American Meteorological Society, 96 (12), 2059-2077. DOI: 10.1175/BAMS-D-14-00110.1</p>
 
 
 </section>
