@@ -14,6 +14,8 @@ website:
           - text: "Home"
             href: index.qmd
           - mycv.qmd
+          - text: "Students' Work"
+            href: https://umdfiresa.github.io
       #- teaching.qmd
       #- research.qmd
       - text: "---"
