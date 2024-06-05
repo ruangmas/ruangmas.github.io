@@ -5,8 +5,7 @@ html:
 toc: false
 ---
 
-![](images/canva2.png){width=95%}
-
+![](images/canva_ctree.png)
 I am the Faculty Leader of the [FIRE Sustainability Analytics](https://www.fire.umd.edu/sa) research group at the University of Maryland. I am dedicated to training undergraduate students in empirical microeconomics research.
 
 I received my Ph.D. in [Agricultural and Applied Economics from the University of Wisconsin-Madison](https://aae.wisc.edu/) in 2018. As a researcher, I am interested in using economics and atmospheric science models to assess the consequences of air pollution regulations.

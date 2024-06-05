@@ -4,8 +4,8 @@ project:
 
 website:
   sidebar:
-    background: black
-    foreground: gray-100
+    background: gray-800
+    foreground: gray-200
     style: "docked"
     search: true
     contents:
@@ -14,10 +14,10 @@ website:
           - text: "Home"
             href: index.qmd
           - mycv.qmd
-          - text: "Students' Work"
-            href: https://umdfiresa.github.io
+
       #- teaching.qmd
       #- research.qmd
+    
       - text: "---"
       - section: "Resources"
         contents:
@@ -27,6 +27,12 @@ website:
             href: r-and-github.qmd
           - text: "Paper Replication ASNs"
             href: paper-replication.qmd
+            
+      - text: "---"
+      - section: "External Site "
+        contents:
+          - text: "Students' Work"
+            href: https://umdfiresa.github.io
    
 format:
   html:
