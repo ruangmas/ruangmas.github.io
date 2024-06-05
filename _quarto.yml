@@ -4,8 +4,8 @@ project:
 
 website:
   sidebar:
-    background: gray-800
-    foreground: gray-200
+    background: gray-900
+    foreground: gray-100
     style: "docked"
     search: true
     contents:
