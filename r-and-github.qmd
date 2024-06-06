@@ -5,27 +5,28 @@ date: 5/5/2024
 editor: visual
 ---
 
-# 1. Introduction to Posit Cloud and R Packages
+[1. Introduction to Posit Cloud and R Packages](tutorials/posit-intro-and-packages.pdf)
 
-```{=html}
-<p align="left">
-<embed src="tutorials/posit-intro-and-packages.pdf" width="800px" height="450px" /></p>
-```
-# 2. How to link Posit Cloud to GitHub & clone an assignment
+-   Creating a Posit Cloud account
 
-```{=html}
-<p align="left">
-<embed src="tutorials/link-and-clone.pdf" width="800px" height="450px" /></p>
-```
-# 3. How to update changes in Posit Cloud to the same GitHub repository
+-   Creating a Workspace, a New Project, and a New Script
 
-```{=html}
-<p align="left">
-<embed src="tutorials/commit-and-push.pdf" width="800px" height="450px" /></p>
-```
-# 4. How to edit R scripts from a GitHub repository in your local computer with Windows OS
+-   Installing a package and set a base project
 
-```{=html}
-<p align="left">
-<embed src="tutorials/local-rstudio-and-github.pdf" width="800px" height="450px" /></p>
-```
+[2. How to link Posit Cloud to GitHub & clone an assignment](tutorials/link-and-clone.pdf)
+
+-   Linking Posit Cloud to GitHub
+
+-   Cloning an assignment
+
+[3. How to update changes in Posit Cloud to the same GitHub repository](tutorials/commit-and-push.pdf)
+
+-   Storing new changes back into GitHub (Stage, Commit, and Push)
+
+-   Creating a Personal Access Token (PAT)
+
+[4. How to edit R scripts from a GitHub repository in your local computer with Windows OS](tutorials/local-rstudio-and-github.pdf)
+
+-   Method 1: Using the RStudio interface
+
+-   Method 2: Using GitHub Desktop

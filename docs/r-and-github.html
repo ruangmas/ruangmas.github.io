@@ -114,12 +114,6 @@ ul.task-list li input[type="checkbox"] {
  <span class="menu-text">CV</span></a>
   </div>
 </li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="https://umdfiresa.github.io" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Students’ Work</span></a>
-  </div>
-</li>
       </ul>
   </li>
         <li class="px-0"><hr class="sidebar-divider hi "></li>
@@ -152,22 +146,31 @@ ul.task-list li input[type="checkbox"] {
 </li>
       </ul>
   </li>
+        <li class="px-0"><hr class="sidebar-divider hi "></li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" aria-expanded="true">
+ <span class="menu-text">External Site</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="https://umdfiresa.github.io" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Students’ Work</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
     </ul>
     </div>
 </nav>
 <div id="quarto-sidebar-glass" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">On this page</h2>
-   
-  <ul>
-  <li><a href="#introduction-to-posit-cloud-and-r-packages" id="toc-introduction-to-posit-cloud-and-r-packages" class="nav-link active" data-scroll-target="#introduction-to-posit-cloud-and-r-packages">1. Introduction to Posit Cloud and R Packages</a></li>
-  <li><a href="#how-to-link-posit-cloud-to-github-clone-an-assignment" id="toc-how-to-link-posit-cloud-to-github-clone-an-assignment" class="nav-link" data-scroll-target="#how-to-link-posit-cloud-to-github-clone-an-assignment">2. How to link Posit Cloud to GitHub &amp; clone an assignment</a></li>
-  <li><a href="#how-to-update-changes-in-posit-cloud-to-the-same-github-repository" id="toc-how-to-update-changes-in-posit-cloud-to-the-same-github-repository" class="nav-link" data-scroll-target="#how-to-update-changes-in-posit-cloud-to-the-same-github-repository">3. How to update changes in Posit Cloud to the same GitHub repository</a></li>
-  <li><a href="#how-to-edit-r-scripts-from-a-github-repository-in-your-local-computer-with-windows-os" id="toc-how-to-edit-r-scripts-from-a-github-repository-in-your-local-computer-with-windows-os" class="nav-link" data-scroll-target="#how-to-edit-r-scripts-from-a-github-repository-in-your-local-computer-with-windows-os">4. How to edit R scripts from a GitHub repository in your local computer with Windows OS</a></li>
-  </ul>
-</nav>
+        
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
@@ -201,28 +204,29 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<section id="introduction-to-posit-cloud-and-r-packages" class="level1">
-<h1>1. Introduction to Posit Cloud and R Packages</h1>
-<p align="left">
-<embed src="tutorials/posit-intro-and-packages.pdf" width="800px" height="450px"></p>
-</section>
-<section id="how-to-link-posit-cloud-to-github-clone-an-assignment" class="level1">
-<h1>2. How to link Posit Cloud to GitHub &amp; clone an assignment</h1>
-<p align="left">
-<embed src="tutorials/link-and-clone.pdf" width="800px" height="450px"></p>
-</section>
-<section id="how-to-update-changes-in-posit-cloud-to-the-same-github-repository" class="level1">
-<h1>3. How to update changes in Posit Cloud to the same GitHub repository</h1>
-<p align="left">
-<embed src="tutorials/commit-and-push.pdf" width="800px" height="450px"></p>
-</section>
-<section id="how-to-edit-r-scripts-from-a-github-repository-in-your-local-computer-with-windows-os" class="level1">
-<h1>4. How to edit R scripts from a GitHub repository in your local computer with Windows OS</h1>
-<p align="left">
-<embed src="tutorials/local-rstudio-and-github.pdf" width="800px" height="450px"></p>
+<p><a href="tutorials/posit-intro-and-packages.pdf">1. Introduction to Posit Cloud and R Packages</a></p>
+<ul>
+<li><p>Creating a Posit Cloud account</p></li>
+<li><p>Creat aingWorkspace, a New Project, and a New Script</p></li>
+<li><p>Installing a package and set a base project</p></li>
+</ul>
+<p><a href="tutorials/link-and-clone.pdf">2. How to link Posit Cloud to GitHub &amp; clone an assignment</a></p>
+<ul>
+<li><p>Linking Posit Cloud to GitHub</p></li>
+<li><p>Cloning an assignment</p></li>
+</ul>
+<p><a href="tutorials/commit-and-push.pdf">3. How to update changes in Posit Cloud to the same GitHub repository</a></p>
+<ul>
+<li><p>Storing new changes back into GitHub (Stage, Commit, and Push)</p></li>
+<li><p>Creating a Personal Access Token (PAT)</p></li>
+</ul>
+<p><a href="tutorials/local-rstudio-and-github.pdf">4. How to edit R scripts from a GitHub repository in your local computer with Windows OS</a></p>
+<ul>
+<li><p>Method 1: Using the RStudio interface</p></li>
+<li><p>Method 2: Using GitHub Desktop</p></li>
+</ul>
 
 
-</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
