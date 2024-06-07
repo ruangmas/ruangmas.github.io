@@ -30,3 +30,5 @@ editor: visual
 -   Method 1: Using the RStudio interface
 
 -   Method 2: Using GitHub Desktop
+
+### [**5. How to to Create a GitHub-Flavored Markdown Webpage with Quarto**](tutorials/gfm.pdf)
