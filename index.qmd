@@ -15,7 +15,7 @@ toc: false
 
  
 
-I am the Faculty Leader of the [FIRE Sustainability Analytics](https://www.fire.umd.edu/sa) research group at the University of Maryland's The First-Year Innovation & Research Experience (FIRE) Program. I am committed to creating effective approaches to teach undergraduate students how to conduct empirical microeconomics research.
+I am the Faculty Leader of the [FIRE Sustainability Analytics](https://www.fire.umd.edu/sa) research group at the University of Maryland. I am committed to creating effective approaches to teach undergraduate students how to conduct empirical microeconomics research.
 
  
 
