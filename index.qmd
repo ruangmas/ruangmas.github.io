@@ -5,8 +5,24 @@ html:
 toc: false
 ---
 
-![](images/ctree_lowcaps.png) I am the Faculty Leader of the [FIRE Sustainability Analytics](https://www.fire.umd.edu/sa) research group at the University of Maryland. I am dedicated to training undergraduate students in empirical microeconomics research.
+::: grid
+::: g-col-6
+![](images/garden_portrait.png)
+:::
 
-I received my Ph.D. in [Agricultural and Applied Economics from the University of Wisconsin-Madison](https://aae.wisc.edu/) in 2018. As a researcher, I am interested in using economics and atmospheric science models to assess the consequences of air pollution regulations.
+::: g-col-6
+ 
 
-**Email: ruangmas \[at\] umd.edu**
+ 
+
+I am the Faculty Leader of the [FIRE Sustainability Analytics](https://www.fire.umd.edu/sa) research group at the University of Maryland's The First-Year Innovation & Research Experience (FIRE) Program. I am committed to creating effective approaches to teach undergraduate students how to conduct empirical microeconomics research.
+
+ 
+
+I received my Ph.D. in [Agricultural and Applied Economics from the University of Wisconsin-Madison](https://aae.wisc.edu/) in 2018. As a researcher, I am interested in using econometrics and atmospheric science models to assess the consequences of air pollution regulations, their environmental outcomes, and their inequitable impact of different demographic groups.
+
+ 
+
+**ruangmas \[at\] umd.edu**
+:::
+:::
