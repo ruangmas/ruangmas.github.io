@@ -11,7 +11,11 @@
     "href": "index.html",
     "title": "",
     "section": "",
-    "text": "I am the Faculty Leader of the FIRE Sustainability Analytics research group at the University of Maryland. I am committed to creating effective approaches to teach students contemporary data science skills in order to conduct empirical microeconomics research.\n \nI received my Ph.D. in Agricultural and Applied Economics from the University of Wisconsin-Madison in 2018. As a researcher, I am interested in using econometrics and atmospheric science models to assess the consequences of air pollution regulations, their environmental outcomes, and their inequitable impact of different demographic groups.\n \nruangmas [at] umd.edu"
+    "text": "I am the Faculty Leader of the FIRE Sustainability Analytics research group at the University of Maryland. I am committed to creating effective approaches to teach students contemporary data science skills in order to conduct empirical microeconomics research.\n \nI received my Ph.D. in Agricultural and Applied Economics from the University of Wisconsin-Madison in 2018. As a researcher, I am interested in using econometrics and atmospheric science models to assess the consequences of air pollution regulations, their environmental outcomes, and their inequitable impact of different demographic groups.\n \nruangmas [at] umd.edu\n \n \n*This page is built with Quarto.",
+    "crumbs": [
+      "About Me",
+      "Home"
+    ]
   },
   {
     "objectID": "paper-replication.html",
@@ -25,6 +29,10 @@
     "href": "r-and-github.html",
     "title": "Reproducible Research Workflow with Posit Cloud and GitHub",
     "section": "",
-    "text": "1. Introduction to Posit Cloud and R Packages\n\nCreating a Posit Cloud account\nCreating a Workspace, a New Project, and a New Script\nInstalling a package and set a base project\n\n\n\n2. How to link Posit Cloud to GitHub & clone an assignment\n\nLinking Posit Cloud to GitHub\nCloning an assignment\n\n\n\n3. How to update changes in Posit Cloud to the same GitHub repository\n\nStoring new changes back into GitHub (Stage, Commit, and Push)\nCreating a Personal Access Token (PAT)\n\n\n\n4. How to edit R scripts from a GitHub repository in your local computer with Windows OS\n\nMethod 1: Using the RStudio interface\nMethod 2: Using GitHub Desktop\n\n\n\n5. How to to Create a GitHub-Flavored Markdown Webpage with Quarto"
+    "text": "1. Introduction to Posit Cloud and R Packages\n\nCreating a Posit Cloud account\nCreating a Workspace, a New Project, and a New Script\nInstalling a package and set a base project\n\n\n\n2. How to link Posit Cloud to GitHub & clone an assignment\n\nLinking Posit Cloud to GitHub\nCloning an assignment\n\n\n\n3. How to update changes in Posit Cloud to the same GitHub repository\n\nStoring new changes back into GitHub (Stage, Commit, and Push)\nCreating a Personal Access Token (PAT)\n\n\n\n4. How to edit R scripts from a GitHub repository in your local computer with Windows OS\n\nMethod 1: Using the RStudio interface\nMethod 2: Using GitHub Desktop\n\n\n\n5. How to to Create a GitHub-Flavored Markdown Webpage with Quarto",
+    "crumbs": [
+      "Resources",
+      "Workflow with R & GitHub"
+    ]
   }
 ]

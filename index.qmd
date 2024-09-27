@@ -5,7 +5,7 @@ html:
 toc: false
 ---
 
-::: grid
+::::: grid
 ::: g-col-6
 ![](images/garden_portrait.png)
 :::
@@ -24,5 +24,11 @@ I received my Ph.D. in [Agricultural and Applied Economics from the University 
  
 
 **ruangmas \[at\] umd.edu**
+
+ 
+
+ 
+
+\*This page is built with [Quarto.](https://quarto.org/)
 :::
-:::
+:::::
