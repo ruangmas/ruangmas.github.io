@@ -5,7 +5,7 @@ html:
 toc: false
 ---
 
-![](images/header_name.png){fig-align="left" width="500"}
+# Thanicha (ta-nee-sha) Ruangmas
 
 ::: grid
 ::: g-col-4
@@ -13,17 +13,17 @@ toc: false
 :::
 
 ::: g-col-6
-I am the Faculty Leader of the [FIRE Sustainability Analytics](https://www.fire.umd.edu/sa) research group at the University of Maryland. I am committed to creating effective approaches to teach students contemporary data science skills in order to conduct empirical microeconomics research.
+ 
+
+I am the Faculty Leader of the [FIRE Sustainability Analytics](https://www.fire.umd.edu/sa) research group at the University of Maryland. I strive to create effective approaches to train undergraduate students in empirical microeconomics research methods.
 
  
 
-I received my Ph.D. in [Agricultural and Applied Economics from the University of Wisconsin-Madison](https://aae.wisc.edu/) in 2018. As a researcher, I am interested in using econometrics and atmospheric science models to assess the consequences of air pollution regulations, their environmental outcomes, and their inequitable impact of different demographic groups.
-
+I received my Ph.D. in [Agricultural and Applied Economics from the University of Wisconsin-Madison](https://aae.wisc.edu/) in 2018. As a researcher, I am interested in using econometrics and atmospheric science models to assess the consequences of air pollution regulations, their environmental outcomes, and their health impacts.
  
 
 **ruangmas \[at\] umd.edu**
 
  
-
 :::
 :::

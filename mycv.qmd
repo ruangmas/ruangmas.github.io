@@ -1,8 +1,8 @@
 ---
-title: "CV"
+title: ""
 editor: visual
 ---
 
-```{=html}
-<p align="center"><iframe class="pdf" src="https://github.com/ruangmas/ruangmas.github.io/blob/main/cv/cv.pdf"></iframe></p>
+``` {=html}
+<iframe src="cv/cv.pdf" style="width:600px; height:500px;" frameborder="0"></iframe>
 ```
