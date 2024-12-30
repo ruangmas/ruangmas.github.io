@@ -5,16 +5,14 @@ html:
 toc: false
 ---
 
-::::: grid
-::: g-col-6
-![](images/garden_portrait.png)
+![](images/header_name.png){fig-align="left" width="500"}
+
+::: grid
+::: g-col-4
+![](images/canva_round.png)
 :::
 
 ::: g-col-6
- 
-
- 
-
 I am the Faculty Leader of the [FIRE Sustainability Analytics](https://www.fire.umd.edu/sa) research group at the University of Maryland. I am committed to creating effective approaches to teach students contemporary data science skills in order to conduct empirical microeconomics research.
 
  
@@ -27,8 +25,5 @@ I received my Ph.D. in [Agricultural and Applied Economics from the University 
 
  
 
- 
-
-\*This page is built with [Quarto.](https://quarto.org/)
 :::
-:::::
+:::

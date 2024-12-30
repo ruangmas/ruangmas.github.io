@@ -4,8 +4,8 @@ project:
 
 website:
   sidebar:
-    background: gray-900
-    foreground: gray-100
+#    background: gray-900
+#    foreground: gray-100
     style: "docked"
     search: true
     contents:
@@ -13,7 +13,8 @@ website:
         contents:
           - text: "Home"
             href: index.qmd
-          - mycv.qmd
+          - text: "CV"
+            href: mycv.qmd
 
       #- teaching.qmd
       #- research.qmd
@@ -36,5 +37,5 @@ website:
    
 format:
   html:
-    theme: darkly.css
+    theme: simplex
     toc: true
