@@ -12,7 +12,7 @@ toc: false
 ![](images/canva_round.png)
 :::
 
-::: g-col-6
+::: g-col-8
  
 
 I am the Faculty Leader of the [FIRE Sustainability Analytics](https://www.fire.umd.edu/sa) research group at the University of Maryland. I strive to create effective approaches to train undergraduate students in empirical microeconomics research methods.
