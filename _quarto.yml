@@ -15,12 +15,9 @@ website:
             href: index.qmd
           - text: "CV"
             href: mycv.qmd
-
-      #- teaching.qmd
-      #- research.qmd
     
       - text: "---"
-      - section: "Resources"
+      - section: "Teaching Resources"
         contents:
           - text: "HYSPLIT with R"
             href: hysplit.qmd
@@ -28,10 +25,6 @@ website:
             href: r-and-github.qmd
           - text: "Paper Replication ASNs"
             href: paper-replication.qmd
-            
-      - text: "---"
-      - section: "External Site "
-        contents:
           - text: "Students' Work"
             href: https://umdfiresa.github.io
    
