@@ -4,5 +4,5 @@ editor: visual
 ---
 
 ```{=html}
-<iframe src="cv/cv.pdf" style="width:600px; height:500px;" frameborder="0"></iframe>
+<iframe src="cv/cv.pdf" style="width:100%; height:100vh; border:none;"></iframe>
 ```
