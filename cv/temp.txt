@@ -1,0 +1,36 @@
+Description
+
+At the World Bank, a member of the World Bank Group (WBG), you’ll join a diverse, global community working across cultures, disciplines, and borders to address the world’s most pressing development challenges. With 1.2 billion young people reaching working age in the decade ahead, the challenge of job creation has never been greater. Through partnerships across 145 countries and more than 182 offices worldwide, we work with governments, private sector, development partners and other stakeholders to invest in people, strengthen markets, and deliver scalable, data-driven solutions that generate more and better jobs and improve lives. For more information, visit https://www.worldbank.org/en/who-we-are/ibrd
+
+Within this architecture, the Prosperity vertical helps countries accelerate inclusive growth and job creation; strengthen macro-fiscal foundations, including debt sustainability, debt management, domestic resource mobilization, and expenditure efficiency; promote a resilient and inclusive financial sector, business enabling policies and regulations, and trade facilitation; while advancing transparent, effective, accountable institutions. The Distributional Impact of Policies Global unit in the Fiscal Policy and Growth Department focuses on integrating distributional analysis of reforms and investments into operational knowledge and lending and comprises applied microeconomists, statisticians, data scientists, and social and behavioral scientists who support WBG teams and governments to ensure that WBG interventions and country policies and programs reduce poverty and inequality in a sustainable manner.
+
+Duties and Accountabilities:
+
+The Distributional Impact of Policies unit is looking for an Economist to join our team, based in Washington, DC. The successful candidate will have the following duties:
+
+• Design and implement cutting edge analytics on poverty and equity that provide policy relevant guidance and foster public debate, including acting as a team member on global reports.
+• Support the development of micro-empirical models to examine the linkages between welfare, fiscal and social policies, incorporating spatial dimensions as appropriate. 
+• Develop and apply innovative analytical frameworks, tools, and technologies to assess spatial disparities and the distributional impact of policies.
+• Support country teams in integrating geospatial and subnational fiscal analytics that can strengthen operational engagement and inform policy dialogue. 
+• Provide support to country teams in the design of operations, and in strengthening data systems to underpin evidence-based policymaking.
+• Contribute to the production of public goods and knowledge products and facilitate knowledge flows between country and global teams. 
+• Contribute to corporate engagement of the Department, including reviews, preparation of briefs and policy notes on thematic issues, and the delivery of just-in-time rapid analytics and diagnostics.
+Selection Criteria
+A Master’s degree (PhD preferred) in economics, public policy, or other related field with a strong quantitative background, solid programming skills, and at least five years of relevant professional experience.
+
+Technical competencies:
+
+• Strong analytical and quantitative skills, with demonstrated experience in performing complex econometric analysis and statistical modeling, and the ability to translate findings into actionable recommendations for strategies, policies, and programs for poverty and inequality reduction.
+• Demonstrated experience integrating geospatial and household survey data to analyze the spatial dimensions of poverty and inequality, including geographic disparities in public service delivery, infrastructure, and the effects of subnational fiscal policies using GIS, remote sensing, and econometric methods. 
+• Demonstrated in-depth expertise in at least two (2) of the following technical areas: poverty mapping/small area estimation techniques, spatial econometrics and modelling; processing and management of big data sources; and fiscal analysis with a subnational focus, including experience using revenue and expenditure data and the analysis of distributional impacts of tax and expenditure policies.
+• Experience in the design and delivery of technical training and workshops, effectively communicating complex methodological content to diverse audiences including government counterparts, researchers, and practitioners across varying levels of technical expertise and adapting training content and delivery to different regional and institutional contexts.
+• Excellent communication skills, including the ability to present technical findings and policy implications clearly and compellingly to a wide range of audiences (such as senior management, policymakers, academic audiences, and the public); and to produce high-quality written outputs (such as technical papers, policy notes, and presentations) that are well-structured and accessible.
+
+Given the fast-paced, global nature of the unit's engagement, the candidate must demonstrate strong teamwork and organizational skills:
+• Solid organizational and project management skills, including the ability to manage multiple deliverables simultaneously and meet tight deadlines.
+• Flexibility and adaptability in a dynamic work environment where priorities may shift rapidly.
+• Ability to work independently, exercise sound judgment, and take initiative with minimal supervision while remaining aligned with team objectives and institutional priorities.
+• Ability to work flexibly, creatively, and to multitask as the need arises. High degree of self-motivation, positive attitude, commitment, and drive.
+• Superb interpersonal skills, ability to collaborate effectively with multi-disciplinary teams, and to listen to and integrate ideas from diverse sources, governments, NGOs and donors, while being respectful and sensitive to cultural, political and gender issues.
+• Ability to work with staff from all levels.
+

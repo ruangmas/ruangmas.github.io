@@ -1,0 +1,175 @@
+\documentclass[11pt,letterpaper]{article}
+
+% ---------- Packages ----------
+\usepackage[margin=0.8in]{geometry}
+\usepackage{xcolor}
+\usepackage[hidelinks]{hyperref}
+
+% ---------- Formatting ----------
+\definecolor{accent}{HTML}{3756CC}
+\hypersetup{colorlinks=true, urlcolor=accent, linkcolor=accent}
+\pagestyle{empty}
+\setlength{\parindent}{0pt}
+
+% Section headings: colored, with a rule underneath (no titlesec needed)
+\renewcommand{\section}[1]{%
+  \par\vspace{10pt}%
+  {\large\bfseries\color{accent}#1}\par\vspace{-3pt}%
+  {\color{accent}\rule{\linewidth}{0.6pt}}\par\vspace{4pt}}
+
+% Tighter bullet lists (no enumitem needed)
+\makeatletter
+\renewcommand{\@listI}{\leftmargin=1.4em \topsep=3pt \itemsep=3pt \parsep=0pt}
+\let\@listi\@listI
+\@listi
+\makeatother
+
+% \entry{Organization}{Location}{Title}{Dates}
+\newcommand{\entry}[4]{%
+  \textbf{#1} \hfill #2 \\
+  \textit{#3} \hfill #4 \par\vspace{1pt}}
+
+% \pubentry{citation}
+\newcommand{\pubentry}[1]{\item #1}
+
+% \oneline{left}{right}
+\newcommand{\oneline}[2]{#1 \hfill #2 \\}
+
+\begin{document}
+
+% ---------- Header ----------
+\begin{center}
+  {\LARGE \textbf{Thanicha Ruangmas}} \\[4pt]
+  (608) 338-9445 \enspace$\bullet$\enspace
+  \href{mailto:truangmas@thegef.org}{truangmas@thegef.org} \enspace$\bullet$\enspace
+  \href{https://ruangmas.github.io}{ruangmas.github.io} \enspace$\bullet$\enspace
+  \href{https://scholar.google.com/citations?user=Z34dNFcAAAAJ&hl=en}{Google Scholar}
+\end{center}
+
+\vspace{10pt}
+Applied economist with 7+ years of experience assessing the distributional impacts of policy by integrating geospatial data with census tract data, including the environmental consequences of energy subsidy reform. Combines econometric methods with large language models to process large unstructured data sources in data-scarce, developing-country settings.
+
+\vspace{10pt}
+\section{PROFESSIONAL EXPERIENCE}
+
+\entry{Global Environment Facility Independent Evaluation Office (GEF IEO)}{Washington, D.C.}{Data Scientist (ETC)}{02/2025 -- Present}
+\begin{itemize}
+  \item Apply large language models (LLMs), geospatial data, and econometric analysis to inform findings and recommendations for evaluations of policy coherence, urban sustainability, and the Eighth Comprehensive Evaluation of the GEF (OPS8).
+  \item Link LLM-based text classifications of project documents such as policy coherence intent with project outcome ratings, using semiparametric matching to estimate outcome differences across project groups.
+  \item Assess whether projects in Uzbekistan and coastal West Africa are located where environmental needs are greatest, using LLMs to extract project locations and integrating remote sensing data (Hansen Global Forest Change, Terra MODIS water quality) into a spatial relevance index.
+  \item Maintain reproducible workflows in Python and R (Jupyter, Quarto, Git).
+  \item Deliver technical products for multiple concurrent evaluations under tight deadlines, including upcoming evaluations of gender policy, Caribbean Small Island Developing States, and West Africa country clusters.
+\end{itemize}
+
+\vspace{10pt}
+\entry{University of Maryland}{College Park, MD}{Assistant Clinical Professor in Sustainability Analytics}{01/2019 -- 01/2025}
+\begin{itemize}
+  \item Designed and taught a 3-semester research methods curriculum and led an undergraduate research lab to assess the impacts of environmental policies. 
+  \item Co-authored a peer-reviewed article on fostering research skills and presented the approach at three conferences.
+  \item Served as Principal Investigator for a USDA-APHIS study leveraging the Google Places API and natural language processing to identify 1,566 poultry and egg farms. Co-authored a technical report and built an R Shiny dashboard mapping farms. Presented findings to over 100 scientists.
+\end{itemize}
+
+\vspace{10pt}
+\entry{Environmental Protection Agency (EPA)}{}{Peer Reviewer}{01/2022 -- 12/2022}
+\begin{itemize}
+  \item Provided expert feedback on EPA's Power Plant Environmental Justice Screening Methodology, which estimates each U.S. power plant's pollution burden on vulnerable demographic groups based on its dispersion patterns.
+  \item Wrote a technical user guide on leveraging the National Oceanic and Atmospheric Administration's (NOAA's) pollution dispersion model and its concentration trajectories to identify vulnerable demographic groups.
+\end{itemize}
+
+\pagebreak
+
+\vspace{10pt}
+\entry{University of Wisconsin--Madison}{Madison, WI}{Graduate Research Assistant}{01/2015 -- 12/2016}
+\begin{itemize}
+  \item Co-authored a peer-reviewed article assessing the distributional impacts of California's emissions trading program by combining results from a pollution dispersion model and U.S. Decennial Census data. Estimated heterogeneous treatment effects with Conley spatial HAC standard errors to account for spatial correlation.
+  \item Wrote a job market paper that assessed the air pollution consequences of natural gas subsidy reform in Thailand and presented it at five international conferences.
+\end{itemize}
+
+\vspace{10pt}
+\entry{International Institute for Applied Systems Analysis (IIASA)}{Laxenburg, Austria}{Young Scientists Summer Program Fellow}{05/2014 -- 08/2014}
+\begin{itemize}
+  \item Conducted input-output analysis in MATLAB to determine whether emissions reductions in the EU were driven by adopting pollution abatement technologies or by relocating production to other regions.
+\end{itemize}
+
+\vspace{10pt}
+\entry{PwC Thailand}{Bangkok, Thailand}{Associate, Financial Information Technology Consulting Services}{01/2011 -- 05/2012}
+\begin{itemize}
+  \item Conducted surveys for the Thai government and assessed the financial reporting data pipeline for one of Thailand's largest banks.
+\end{itemize}
+
+% ---------- Education ----------
+\section{EDUCATION}
+\oneline{\textbf{Ph.D. in Agricultural and Applied Economics}, University of Wisconsin--Madison}{2018}
+\oneline{\textbf{B.A. in Economics}, Chulalongkorn University, Bangkok, Thailand}{2011}
+
+% ---------- Fellowships ----------
+\section{FELLOWSHIPS AND GRANTS}
+\oneline{USDA-APHIS Summer Grant (\$16k)}{2021}
+\oneline{USDA-APHIS Summer Grant (\$15k)}{2020}
+\oneline{Global Health Institute Research Award, UW--Madison (\$4k)}{2016}
+\oneline{Economy and Environment Program for Southeast Asia Grant (\$10k)}{2015}
+\oneline{Young Scientists Summer Program Fellow, IIASA}{2014}
+\oneline{Undergraduate Fellowship, Chulalongkorn University}{2007--2011}
+
+% ---------- Awards ----------
+\section{AWARDS AND CERTIFICATIONS}
+\oneline{Faculty Mentor Award, Philip Merrill Presidential Scholars Program, University of Maryland}{2022}
+\oneline{LangChain for LLM Application Development}{2026}
+\oneline{Systematically Improving RAG Applications}{2025}
+
+% ---------- Publications ----------
+\section{PEER-REVIEWED PUBLICATIONS}
+\begin{itemize}
+  \pubentry{\textbf{Ruangmas, T.} \& Olson, L. J. (2025). FIRE Sustainability Analytics: An Innovative Approach to Engaging Undergraduate Students in Economics Research. \textit{Applied Economics Teaching Resources, 6}. \href{https://doi.org/10.71162/aetr.782095}{doi:10.71162/aetr.782095}}
+  \pubentry{Grainger, C. \& \textbf{Ruangmas, T.} (2018). Who Wins from Emissions Trading? Evidence from California. \textit{Environmental and Resource Economics, 71}(3), 703--727. \href{https://doi.org/10.1007/s10640-017-0180-1}{doi:10.1007/s10640-017-0180-1}}
+\end{itemize}
+
+% ---------- Technical Reports ----------
+\section{TECHNICAL REPORTS}
+\begin{itemize}
+
+\pubentry{\textbf{Ruangmas, T.} (2022). \textit{How to Run HYSPLIT and Calculate Affected Population with R.} 
+\href{https://ruangmas.github.io/hysplit.html}{[Link]}} 
+
+  \pubentry{Chapman, J., Kothari, S., Lazarus-Hall, A., Olson, L. J., Relan, M. \& \textbf{Ruangmas, T.} (2020). \textit{Using Online Data to Identify Farms Selling Poultry and Eggs in Delaware, Maryland, and Virginia.} FIRE--USDA APHIS Report. \href{https://drive.google.com/file/d/1tEazLXx8xA6s9KPVHxVDIlz273T3Oy9N/view?usp=drive_link}{[Link]}}
+  \pubentry{\textbf{Ruangmas, T.} (2015). \textit{Decomposition of SO\textsubscript{2} and NO\textsubscript{x} Emissions in the EU: Leakage or Technology Adoption?} IIASA YSSP Proceedings.}
+\end{itemize}
+
+% ---------- Presentations ----------
+\section{CONFERENCE PRESENTATIONS}
+\begin{itemize}
+  \pubentry{\textbf{Ruangmas, T.} (2024, June 25). \textit{Fostering Data Literacy through Paper Replication \& Reproducible Workflows.} ConnectUR Conference 2024, College Park, MD. \href{https://drive.google.com/file/d/1sWazDSKhvuPo2vBjK3psZ5JWO0LkyMRQ/view?usp=drive_link}{[Slides]}}
+  \pubentry{\textbf{Ruangmas, T.} (2024, May 31). \textit{Fostering Data Literacy through Paper Replication \& Reproducible Workflows.} CTREE Conference 2024, Atlanta, GA.}
+  \pubentry{\textbf{Ruangmas, T.} (2023, January 7). \textit{Empirical Training for a Successful Course-Based Undergraduate Research Experience} [Poster]. ASSA 2023 Annual Meeting, New Orleans, LA.}
+  \pubentry{Chapman, J., Kothari, S., Lazarus-Hall, A., Olson, L. J., Relan, M. \& \textbf{Ruangmas, T.} (2020, August 28). \textit{Using Online Data to Identify Farms Selling Poultry and Eggs in Delaware, Maryland, and Virginia.} USDA-APHIS Virtual Science Webinar.}
+\pubentry{\textbf{Ruangmas, T.} (2016--2017). \textit{The Consequences of Natural Gas Subsidy Reform: The Case of Air Pollution in Thailand.} Presented at EAAERE (Singapore), IAEE (Singapore), EEPSEA (Bangkok), ICTH (San Jos\'e, CA), and AERUS (Urbana-Champaign, IL).}
+\end{itemize}
+
+% ---------- Teaching ----------
+\section{TEACHING}
+\textit{University of Maryland, College Park}
+\begin{itemize}
+  \item FIRE120: FIRE Semester 1 \hfill 2019--2024
+  \item FIRE198: FIRE Semester 2 -- Sustainability Analytics \href{https://github.com/ruangmas/ruangmas.github.io/blob/main/documents/FIRE198.pdf}{[Syllabus]} \hfill 2019--2024
+  \item FIRE199: Summer Internship -- Sustainability Analytics \href{https://github.com/ruangmas/ruangmas.github.io/blob/main/documents/FIRE199.pdf}{[Syllabus]} \hfill 2022--2024
+  \item FIRE298: FIRE Semester 3 -- Sustainability Analytics \href{https://github.com/ruangmas/ruangmas.github.io/blob/main/documents/FIRE298.pdf}{[Syllabus]} \hfill 2020--2024
+\end{itemize}
+\vspace{4pt}
+\textit{University of Wisconsin--Madison}
+\begin{itemize}
+  \item AAE244: Environment and the Global Economy (Teaching Assistant) \hfill 2015
+  \item AAE343: Environmental Economics (Teaching Assistant) \hfill 2012--2014
+\end{itemize}
+
+% ---------- Skills ----------
+\section{SKILLS}
+\begin{tabular}{@{}l p{4.6in}@{}}
+  \textbf{Data Science \& AI:} & Python (LangChain, Pydantic, LanceDB, AsyncOpenAI) \\
+  \textbf{Statistical Programming:} & R (fixest, Synth), Stata \\
+  \textbf{Geospatial Programming:} & R (terra, ggmap), ArcGIS \\
+  \textbf{Other:} & Git/GitHub, Google Cloud Platform, Shiny, \LaTeX, MATLAB \\
+  \textbf{Languages:} & English (fluent), Thai (native) \\
+  \textbf{Status:} & Thai national with U.S. Permanent Residency \\
+\end{tabular}
+
+\end{document}

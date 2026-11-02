@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.4.3)  7 OCT 2025 11:34
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2026.10.25)  25 OCT 2026 15:45
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -299,14 +299,14 @@ Package rerunfilecheck Info: File `cv.out' has not changed.
  ) 
 Here is how much of TeX's memory you used:
  9727 strings out of 475171
- 154027 string characters out of 5764235
+ 154027 string characters out of 5764233
  580886 words of memory out of 5000000
  32620 multiletter control sequences out of 15000+600000
  563830 words of font info for 52 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 75i,10n,79p,361b,434s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,10n,79p,272b,434s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <c:/Users/wb640573/AppData/Roaming/TinyTeX/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm1095.600pk><c:/Users/wb640573/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><c:/Users/wb640573/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/Users/wb640573/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><c:/Users/wb640573/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/Users/wb640573/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/Users/wb640573/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb><c:/Users/wb640573/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmti8.pfb>
-Output written on cv.pdf (3 pages, 111060 bytes).
+Output written on cv.pdf (3 pages, 110948 bytes).
 PDF statistics:
  73 PDF objects out of 1000 (max. 8388607)
  52 compressed objects within 1 object stream
